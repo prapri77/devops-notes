@@ -1,0 +1,18 @@
+- hosts: all
+  remote_user: ec2-user
+  become: yes
+  tasks:
+     - name: apache install
+       yum: 
+          name: httpd
+          state: latest
+     - name: start service
+       service: 
+          name: httpd
+          state: started
+     - name: copy files
+       synchronize:
+          src: /var/www/html/
+          dest: /var/www/html/
+       delegate_to: "{{ inventory_hostname }}"
+          

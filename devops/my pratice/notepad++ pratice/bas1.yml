@@ -1,0 +1,17 @@
+- hosts: all
+  remote_user: ec2-user
+  become: yes
+  tasks:
+     - name: looping concept
+       yum:
+         name: "{{ item }}"
+         state: present
+       loop:
+         - php
+         - gd
+         - gd-devel
+         - git
+         - kubernetes
+        
+        
+        

@@ -1,0 +1,120 @@
+TEXTFILE --> DBMS --> RDBMS --> Datawarehouse --> HADOOP ( DATA LAKE) 
+HADOOP CAME INTO PICTURE --> 
+DATA LOCALITY --> DISTRIBUTED PROCESS GOES TO DISTRIBUTED DATA --> HADOOP (GOOGLE ) 
+PROCESS LOCALITY --> Distributed Data goes to Process --> RDBMS 
+
+2006 --> HDFS ( HADOOP DISTRIBUTED FILE SYSTEM ) --> MC and DC 
+
+========================================================
+
+HADOOP CLUSTER --> 
+CLUSTER --> GROUP OF SYSTEMS INTERCONNECTED TOGETHER --> HADOOP --> HADOOP CLUSTER 
+
+HADOOP ? 
+MASTER SLAVE ARCHITECTURE 
+
+
+2 NAME NODES 
+REST DATA NODES 
+
+PROD --> 185 CLUSTER 
+NAME NODES --> 2 
+DATA NODES --> 183 Data Nodes 
+
+DEV --> 135 NODE CLUSTER 
+NN --> 2 
+DN --> 133 DN
+
+============================
+ADMINS --> TECHNICAL ARCHITECTS 
+
+AWS --> HADOOP CLUSTER --> Elastic MAP REDUCE --> EMR 
+Azure --> HADOOP CLUSTER --> HDInsight Cluster 
+GCP --> DATA PROC 
+
+SALES.CSV --> 5GB --> DATA NODES 
+NAME NODE ? --> METADATA 
+
+yarn node --list -all --> hadoop cluster 
+500 NODE CLUSTER 
+
+LOGIN TO BELOW HOST ID ANC CHECK --> 
+EDGE NODE HOST ID --> 
+
+NAME NODE UP 
+DATA NODE UP 
+
+==============================
+
+ETL PIPELINE --> NO HADOOP ( ARCHITECTURE) 
+
+RDBMS --> is Physical Partition of DATA ? NO 
+LOGICAL PARTITION --> IS POSSIBLE 
+
+HADOOP --> Physical partition --> YES 
+
+MIGRAGRATION --> STANDARD CHARTERED 
+
+
+SOURCES of DATA --> 
+Core banking --> ONLINE TRANSCATION --> ORACLE ( RDBMS ) --> Commercial 
+CRM DATA --> MySQL ( RDBMS ) 
+Subsideries --> XML 
+SOCIAL MEDIA --> JSON 
+FLat file generator 
+
+
+ETL TOOLS --> INFORMATICA , SSIS , TALEND 
+
+FIRST STEP --> EXTRACT --> DIFFERENT SOURCES 
+SECOND STEP --> TRANSFORMATION --> ADD THE SCHEMA TO IT --> TABLE DATA 
+THIRD STEP --> LOAD --> TABLE DATA --> DATA WAREHOUSE --> VISUALIZATION TOOLS 
+
+CHALLENGE 
+1) ETL TOOL --> SINGLE MACHINE --> LIMIT --> 1TB 
+2) Unstructured Data --> 
+3) DATA WAREHOUSE --> VERY COSTLY --> TERADATA 
+4) REAL TIME DATA --> STREAMING DATA 
+
+
+ADVANTAGE --> 
+FASTER PROCESSING 
+=======================================
+MIDDLEWARE --> SQOOP , SPARK , TALEND 
+
+1) COST WILL BE VERY LESS 
+2) Unstructred data 
+3) Real time data 
+
+1) PROCESSING WISE --> DATAWAREHOUSE --> MR 
+
+ETL --> Extract transform Load --> DATAWAREHOUSE + ETL TOOL 
+ELT --> Extract Load TRANSFORMATION --> HADOOP + MIDDLE WARE ( NEW ARCH) 
+
+10 NODE CLUSTER 
+8 --> DN 
+2 --> NN 
+
+HADOOP --> SCALABILITY --> 30000 node cluster 
+
+CTS --> 950 Node cluster 
+THRESHOLD --> 10PB --> 7PB --> 
+5 DN 
+
+
+HOT DATA --> OP --> DATAWAREHOUSE --> TD
+WARM DATA  -->  HADOOP 
+COLD DATA -->  HADOOP 
+
+==============================================
+1) HDFS --> DATA GETS STORED IN HDFS 
+2) HADOOP --> 1.x 
+3) HADOOP 2.x 
+
+
+
+
+
+
+
+

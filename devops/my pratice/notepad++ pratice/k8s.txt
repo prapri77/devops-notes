@@ -1,0 +1,42 @@
+#! /bin/bash
+
+# install awscli
+sudo apt-get update
+sudo apt install awscli -y
+
+# adding environmemt variable
+export AWS_ACCESS_KEY_ID=AKIA25FGYX5XMB7B7LGC
+export AWS_SECRET_ACCESS_KEY=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
+export NAME=prasanth.k8s.local
+export KOPS_STATE_STORE=s3://kops-82
+
+# to confirm varaible added 
+sudo printenv
+
+# set the accecc key id and secret access 
+aws configure set aws_access_key_id AKIA25FGYX5XMB7B7LGC
+aws configure set aws_secret_access_key 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
+aws configure set default.region ap-south-1
+aws configure set default.output json
+
+#update apt 
+sudo apt update
+
+#download kops
+curl -Lo kops https://github.com/kubernetes/kops/releases/download/$(curl -s https://api.github.com/repos/kubernetes/kops/releases/latest | grep tag_name | cut -d '"' -f 4)/kops-linux-amd64
+
+#download kubectl
+curl -Lo kubectl https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+
+# make kops and kubectl execute
+chmod +x ./kops ./kubectl
+
+# move kops and kubectl 
+sudo mv ./kops /usr/local/bin/
+sudo mv ./kubectl /usr/local/bin/
+
+#generate key pair
+sudo ssh-keygen -t rsa
+
+#changing permisson
+sudo chmod 400 .ssh/*

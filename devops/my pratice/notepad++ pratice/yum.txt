@@ -1,0 +1,27 @@
+#! /bin/bash
+
+# install package
+sudo yum update -y
+
+# adding jenkins package
+sudo wget -O /etc/yum.repos.d/jenkins.repo \
+    https://pkg.jenkins.io/redhat-stable/jenkins.repo
+	
+# adding key
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+
+# upgrade
+sudo yum upgrade
+
+# install java
+sudo amazon-linux-extras install java-openjdk11 -y
+
+# install jenkins
+sudo yum install jenkins -y
+
+# enable and start
+ sudo systemctl enable jenkins
+ sudo systemctl start jenkins
+ sudo systemctl status jenkins
+ 
+

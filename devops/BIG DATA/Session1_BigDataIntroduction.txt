@@ -1,0 +1,190 @@
+What is Data ? 
+How many kinds of Data ?
+What kinds of Data , data engineers will handle ?
+Importance of Data ?
+Reason for increase in Data , sources of Data ?
+What is Big Data ?
+What is hadoop ?
+Components of Hadoop ?
+Data evolution ?
+Process locality 
+Data Locality 
+HDFS CONCEPT
+===========================================
+MODULE 1 --> HADOOP ( DISTRIBUTED STORAGE and DISTRIBUTED PROCESSING)
+
+WHAT IS DATA ? INFORMATION 
+DATA ANALYST 
+DATA ENGINEER --> BIG DATA 
+DATA SCIENTIST 
+
+Different KINDS OF DATA ?
+1) Structured Data --> SQL DATA --> ROWS AND COLUMNS ,RDBMS data --> DATA + SCHEMA (METADATA) --> DE
+2) Semi-Structured --> DATA ( NO SCHEMA ) --> JSON , XML , CSV --> KEY VALUE PAIRS --> DE
+3) UnStructured DATA --> Flat files , Video , Audio files , Watsapp Logs , Twitter logs --> DS (ML) --> SPARK  
+
+BIG DATA --> ALL THE KINDS OF DATA can be handled 
+
+CTS --> 
+=======================================
+IMPORTANCE OF DATA --> 
+FRUIT SELLER -->
+AUGUST 1 --> 200 APPLES --> 10 AM --> 12 PM --> APPLES sold out --> 300 PEOPLE 
+
+
+AUGUST 2 -->  INCREASE THE NUMBER OF APPLES --> 600 APPLES 
+
+COLLECTED THE DATA --> DATA PROCESSING --> DECISION MAKING --> ORGANIZED WAY 
+
+
+AMAZON 
+FLIPKART 
+Microsoft 
+======================================
+
+2000 --> WHAT IS THE REASON ? --> 6 MONTHS 
+
+ARCHITECT --> RDBMS SYSTEM  ( ORACLE , MYSQL , INFORMIX , SQL SERVER)--> STORES --> 1 MONTH --> DML ( ACID PROPERTIES) 
+DATA INCREASE --> DIGITAL PAYMENTS --> GPAY 
+SOCIAL MEDIA --> NO SQL --> KEY VALUE --> JSON , XML SOAP SERVICES  ,CSV  ( FLAT FILES ) 
+KEY --> SMART PHONE --> DYNAMO DB 
+VALUES 
+=================================
+50 PLUS NO SQL DB 
+
+HADOOP --> HBASE 
+REAL TIME --> CASSANDRA 
+MACHINE LEARNING --> GRAPHICAL DB --> TIGER GRAPH 
+OLA --> MANGO DB 
+==================================
+RDBMS --> SYSTEM --> VERTICAL or HORIZONTAL SCALING --> DATA INCREASES , PERFORMANCE DECREASES 
+
+WHAT IS BIG DATA ?
+TECHNOLOGY WHich handles large volumes of data 
+ALL KINDS OF DATA ( SD, SSD , USD )
+MIND TREE --> 
+INFORMATICA --> ETL TOOL --> CHARGES 
+45 to 50 LAKHS 
+
+XML DATA --> SSD --> INFORMATICA CORE TEAM --> CHARGABLE 
+SERVER LIMIT --> 10TB 
+ADD THE ANOTHER INFORMATICA SERVER --> 
+
+2013 to 2015 --> BANKING 
+ 
+
+FRAMEWORK --> JAVA 
+HADOOP --> It is the framework which handles big data 
+3 CORE COMPONENTS --> 
+1) HDFS 
+2) Map Reduce 
+3) YARN 
+
+
+BANKING 0-> TERADATA ,
+
+MAINFRAME --> TERADATA ( WAREHOUSE)  ---> TABLES --> VIEWS --> TABLUE --> REPORTS --> OLD FLOW 
+
+MIANFRAME --> (UNIX SERVER - KEREBROS) HADOOP --> HIVE --> PROCESSING ( SPARK ) --> OP --> TABLUE --> REPORTS 
+
+TESTING --> 
+CUSTOMER --> 19M 
+
+CUSTOMER --> 19M 
+
+MINUS QUERY --> zero records --> testing will be success 
+
+32 MILLION --> TERADATA 
+HIVE --> 
+1 record --> 
+
+
+CLOUD --> 5 years --> Azure 
+
+RETAIL --> GCP , AWS 
+FCA --> AWS 
+MERCEBES --> AZURE 
+TESCO --> AWS 
+
+APACHE PIG 
+========================
+AWS --> 
+STORE --> S3 (I)
+PROCESS --> EMR --> ELASTIC MAP REDUCE --> SPARK JOBS (P)
+STORE --> S3 
+ATHENA Service --> FASTER 
+
+=======================
+AZURE --> SECURITY --> 
+WESTPAC --> AUSTRLIA BANK --> AZURE
+
+AWS --> 48% (2006) 
+Azure --> 24% (2009) --> SERVICES 
+GCP --> 12% 
+=======================
+5Vs of big data 
+V --> VOLUME 
+V --> velocity --> Speed --> SPARK 
+V --> Variety --> SD , SSD , USD
+V --> Veracity 
+V --> Value --> SALARY --> DECISION MAKING 
+
+MYNTRA --> 
+1 LAKH 
+5 Items --> Cart --> LEFT IT 
+NOTIFICATIONS 
+HDFC 
+
+ANALYSIS --> 
+10% 
+5% 
+
+V --> Value --> SALARY --> DECISION MAKING 
+
+SIT 1 
+SIT 2 
+UAT 1
+UAT 2
+
+PROD 
+=====================
+EVOLUTION 
+
+TEXTFILE --> DBMS --> RDBMS --> Warehouse --> DISTRIBUTED --> HADOOP --> 2006 
+HADOOP CLUSTER --> AWS , AZURE , GCP 
+======================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+

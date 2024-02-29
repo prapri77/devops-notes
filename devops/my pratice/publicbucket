@@ -1,0 +1,10 @@
+#!/bin/bash
+yum install httpd -y
+service httpd start
+chkconfig httpd on
+
+wget http://chetan-demo.s3-us-west-2.amazo...
+
+unzip awstrainingcenter.com.zip
+cp -r awstrainingcenter.com/* -d /var/www/html/
+

@@ -1,0 +1,13 @@
+---
+serviceName: "alertmanager"
+userId: "alertmanager"
+groupId: "alertmanager"
+exec_command: "/usr/local/bin/alertmanager --config.file=/etc/alertmanger/alertmanager.yml --storage.path= /data/alertmanager"
+version: "1.0.1"
+
+---
+serviceName: "prometheus"
+userId: "prometheus"
+groupId: "prometheus"
+exec_command: "/usr/local/bin/prometheus --config.file=/etc/prometheus/prometheus.conf --storage.tsdb.path=/data/prometheus --storage.tsdb.retention=2d"
+version: "2.3.2"

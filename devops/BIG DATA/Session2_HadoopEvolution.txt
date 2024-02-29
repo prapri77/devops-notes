@@ -1,0 +1,149 @@
+What is hadoop ? Framework 
+3 Steps --> 
+1) Data collection 
+2) Data processing 
+3) Decision Making 
+
+3
+1) SD
+2) SSD --> JSON ,XML , CSV 
+3) USD
+
+=======================================
+EVOLUTION OF DATA --> 
+1960 --> Traditional Files --> text files --> Less 
+1970 --> DBMS --> Data Base Management System --> EXCEL SHEET --> Analytics --> PAY 
+1980 --> EXCEL --> 2GB --> 30 MIN --> RDBMS --> RELATIONAL DATA BASE MANAGEMENT SYSTEM 
+SERVER BOX --> DUMP YOUR DATA INTO THE BOX --> SQL --> Stuctured Query langauge 
+TABLE FORMAT --> ROW and COLUMNS 
+ACID PROPERTIES --> DML --> INSERT , UPDATE , DELETE 
+RDBMS --> SQL 
+MySQL 
+Oracle --> Commercial Database --> Security 
+MS SQL 
+SQL SERVER 
+Informix 
+PostGre SQL 
+NETEZZA 
+
+COSTLY 
+
+1990 - 2000 --> BIRTH OF BIG DATA 
+
+Data Keeps increasing , performance starts Decreasing , Additional servers ,Vertical Scaling
+
+1990 --> 
+RDBMS --> PROCESS LOCALITY 
+
+WAREHOUSE --> DATA WAREHOUSE --> COMBINATION OF MULTIPLE RDBMS SERVERS AT A PLACE
+1) GOOD PERFORMANCE 
+2) FASTER ANALYSIS 
+
+DISADVATAGE -->
+1) VERY VERY COSTLY 
+
+TERADATA 
+GreenPlum 
+Red Shift 
+Big Query 
+Snowflake 
+
+
+=====================================================
+DATABASE ( SD) , OLTP (ACID PROPERTIES) ,DML  AND DATAWAREHOUSE (SD) , OLAP ,NO DML OPERATIONS
+
+
+===================================
+1995 --> 
+
+DC , MC 
+Conference --> EFFECTIVELY , PROCESS THE DATA , VERY LESS COSTLY 
+AGENDA 
+1) Distributed Storage --> DATA IS DISTRIBUTED --> J1 --> SUCCESS 
+2) Distributed Processing --> PROCESS LOCALITY --> FAILED TECHNIQUE 
+
+4 Systems --> 4 Laptops 
+S1 
+S2 
+S3
+S4 
+
+File --> 3GB --> sales.csv --> 
+IND 
+UK 
+US 
+Germany 
+
+USECASE --> SALES HAPPENED IN INDIA --> SQL Query --> PROCESS 
+
+DIstirbuted Data is coming to the PROCESS ( GT) --> PROCESS LOCALITY 
+
+1995 --> 
+
+2000 
+
+2003 --> GOOGLE --> MAP REDUCE --> TECHNIQUE --> DC , MC --> 
+
+DFS --> SMALL CHANGES --> 
+
+DISTRIBUTED PROCESS GOING TO DISTRIBUTED DATA 
+
+CLASS 
+
+TEACHER 
+10 STUDENTS 
+S1 --> BOOK --> 10 Lesson --> 1 HOUR --> 10 HOURS --> 10 AM IST 
+
+S2 --> L2 
+S3 --> L3
+S4 --> L4
+.
+S10 --> L10 
+
+10 AM --> 11 AM 
+
+DATA LOCALITY --> DISTRIBUTED PROCESS GOING TO DISTRIBUTED DATA 
+2006 --> HDFS --> HADOOP DISTRIBUTED FILE SYSTEM 
+
+HADOOP --> DISTRIBUTED PROCESS GOING TO DISTRIBUTED DATA 
+
+HDFS --> DATA LOCALITY 
+
+1GB 
+
+32 M 
+
+PROD --> 185 NODE SYSTEM 
+
+183 DN --> SLAVE  
+2 NN --> MASTER 
+
+8 PB 
+
+========================================
+HADOOP CLUSTER 
+CLOUDERA 
+VERSION 
+HADOOP 1.x
+HADOOP 2.x 
+HADOOP 3.x 
+
+COMPANIES 
+
+=======================================
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
